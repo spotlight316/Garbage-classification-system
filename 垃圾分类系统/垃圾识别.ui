@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>888</width>
+    <height>654</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>垃圾分类</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_open">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>230</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开摄像头</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ibl_img">
+   <property name="geometry">
+    <rect>
+     <x>241</x>
+     <y>74</y>
+     <width>501</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_identify">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>300</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始识别</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_result">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
